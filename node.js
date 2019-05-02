@@ -18,7 +18,7 @@ app.get('/', function(request, response) {
   } else {
     var envName = 'review app'
   }
-  response.render('index.html', { env: envName});
+  response.render('sample.html', { env: envName});
 });
 
 app.listen(app.get('port'), function() {
