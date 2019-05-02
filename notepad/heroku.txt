@@ -1,0 +1,67 @@
+Heroku Commandline
+
+1. dir
+2. cd myapp
+3. heroku login
+4. heroku create
+5. heroku open -a cello456
+6. heroku ps:scale web=1 -a cello456(If application Error)
+how to connect heroku and github
+7. git config --global user.name shashankvalgen
+8. git config --global email.name shashank.s@valgen.com
+9. git init
+10. git commit -m "First commit"
+11. git remote add origin "url"
+12. git add .
+13. git push -u origin master
+14. git clone https://github.com/heroku/node-js-getting-started cello456
+15. git config --replace-all user.email "shashank.s@valgen.com"
+16. git config --replace-all user.name "shashankvalgen"
+17. git commit -am "first commit"
+18. git push heroku master
+19.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.learningsfdc.com/pdf/9/Heroku%20Enterprise%20Basics.pdf
