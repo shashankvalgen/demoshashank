@@ -1,17 +1,18 @@
 {
+  "name": "sample-node-app",
+  "scripts": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
   "addons": [
 
   ],
   "buildpacks": [
-
-  ],
-  "description": "",
-  "env": {
-  },
-  "formation": {
-  },
-  "name": "demoshashank",
-  "scripts": {
-  },
-  "stack": "heroku-18"
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
