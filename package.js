@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/shashankvalgen/demoshashank"
   },
   "keywords": [
     "node",
